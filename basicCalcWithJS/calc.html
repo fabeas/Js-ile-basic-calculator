@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+    <h1> Basic Calculator </h1>
+    <div class="container">
+
+        <table>
+            <div class="calcInput">
+
+                <tr>
+                    <td colspan="4">
+                        <input type="text" name="ekran" class="ustEkran" placeholder="0" />
+                    </td>
+                </tr>
+            </div>
+            <div class="calcKeys">
+                <tr>
+                    <td>
+                        <input type="button" value="%" id="Yüzdelik" />
+                    </td>
+                    <td>
+                        <input type="button" value="." id="kusurat" />
+                    </td>
+                    <td>
+                        <input type="button" value="C" id="sıfırla" />
+                    </td>
+                    <td>
+                        <input type="button" value="del" id="backspace" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="1" />
+                    </td>
+                    <td>
+                        <input type="button" value="2" />
+                    </td>
+                    <td>
+                        <input type="button" value="3" />
+                    </td>
+                    <td>
+                        <input type="button" value="/" id="Böl" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="4" />
+                    </td>
+                    <td>
+                        <input type="button" value="5" />
+                    </td>
+                    <td>
+                        <input type="button" value="6" />
+                    </td>
+                    <td>
+                        <input type="button" value="*" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="7" />
+                    </td>
+                    <td>
+                        <input type="button" value="8" />
+                    </td>
+                    <td>
+                        <input type="button" value="9" />
+                    </td>
+                    <td>
+                        <input type="button" value="-" id="çıkar" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="0" />
+                    </td>
+                    <td>
+                        <input type="button" value="+" id="topla" />
+                    </td>
+                    <td colspan="2"> <input type="button" value="=" id="esittir" />
+                    <td>
+                    </td>
+                </tr>
+            </div>
+        </table>
+    </div>
+    <script src="calc.js">
+    </script>
+</body>
+
+</html>
