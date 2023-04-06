@@ -1,2 +1,5 @@
-# Js-ile-basic-calculator
-İlk Javascript projem , basic Hesap Makinesi
+# basicCalcWithJs
+
+İlk Javascript projem tasarımına çok odaklanmadım amacım js tarafını yazabilmekti.
+Boş olduğum vakitlerde css tarafıyla ilgileneceğim
+
